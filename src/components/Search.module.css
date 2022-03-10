@@ -1,0 +1,32 @@
+.radio {
+  margin: auto;
+  display: flex;
+  height: auto;
+  width: 350px;
+  border-radius: 200px;
+  border: 1px black solid;
+  padding: 5px 5px 5px 5px;
+  position: relative;
+  justify-content: space-between;
+}
+.radio button:focus {
+  outline: 0;
+}
+.input,
+.input:focus,
+.input:active {
+  border-style: none;
+  outline: none;
+  margin-left: 5px;
+}
+.button {
+  /* position: absolute; */
+  border-style: none;
+  border-radius: 20px;
+  padding: 5px 25px;
+  color: white;
+  background-color: #e85d0c;
+}
+.button:hover {
+  background-color: #dd5405;
+}
